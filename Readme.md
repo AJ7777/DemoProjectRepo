@@ -15,3 +15,7 @@ Dummy-Dateien für die Übungen. Alle Inhalte sind erfunden.
 Hinweis zu Übung 3 und 8: Zeile 1 von konzept.md lautet „Titel: Arbeitstitel – noch offen“. In Übung 8 ändern zwei Personen genau diese Zeile unterschiedlich, siehe titelvorschlaege.md.
 
 Hinweis zu Übung 9: Die Dateien sind klein. Die Größen auf der Folie (2 MB, 350 MB, 40 MB) sind nur angenommen.
+
+
+Contributors:
+Andreas - AJ7777
