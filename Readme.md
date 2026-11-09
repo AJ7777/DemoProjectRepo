@@ -1,65 +1,17 @@
-```
-                | (_) |       | |           | |           
- _ __ __ _ _   _| |_| |__  ___| |_ __ _ _ __| |_ ___ _ __ 
-| '__/ _` | | | | | | '_ \/ __| __/ _` | '__| __/ _ \ '__|
-| | | (_| | |_| | | | |_) \__ \ || (_| | |  | ||  __/ |   
-|_|  \__,_|\__, |_|_|_.__/|___/\__\__,_|_|   \__\___|_|   
-            __/ |                                         
-           |___/  
-```
+# Übungsdateien Git-Workshop
 
-# raylibstarter - minimal edition
+Dummy-Dateien für die Übungen. Alle Inhalte sind erfunden.
 
-[![CMakeBuilds](https://github.com/chfhhd/raylibstarter-minimal/actions/workflows/cmake.yml/badge.svg)](https://github.com/chfhhd/raylibstarter-minimal/actions/workflows/cmake.yml)
+| Ordner | Übung | Inhalt |
+|---|---|---|
+| Uebung02_Eigenes-Repository | Übung 2: Ein Repository auf GitHub anlegen | konzept.md (Text zum Einfügen), titelbild.png (zum Hochladen) |
+| Uebung03_Gruppen-Repository | Übung 3: Gruppen-Repository anlegen | konzept.md mit Spieltitel in Zeile 1 (für Person A) |
+| Uebung04_Klonen | Übung 4: Gruppen-Repository klonen | Beispiel-Figurendateien figur-maria.md, figur-tom.md, figur-lea.md, figur-kira.md |
+| Uebung08_Konflikt | Übung 8: Konflikt erzeugen und lösen | titelvorschlaege.md mit zwei Titeln für Person A und B |
+| Uebung09_Rein-oder-raus | Übung 9: Rein oder raus? | acht Beispieldateien zum Einordnen |
 
-A simple raylib project template for CMake and C/C++
+Übungen 5, 6 und 7 brauchen keine eigenen Dateien: Sie arbeiten mit der Figurendatei aus Übung 4.
 
-## Usage
+Hinweis zu Übung 3 und 8: Zeile 1 von konzept.md lautet „Titel: Arbeitstitel – noch offen“. In Übung 8 ändern zwei Personen genau diese Zeile unterschiedlich, siehe titelvorschlaege.md.
 
-Use CMake or a CMake compatible development environment to build a minimalistic raylib project. The raylib library will be downloaded automatically by CMake.
-
-### Changing the project title and version number
-
-The project name and version number can be customized in the `src/CMakeLists.txt` file. By default, the project name is 'game':
-
-```
-project(game VERSION 0.1 LANGUAGES CXX)
-```
-
-### Change the window size and switch to fullscreen
-
-The width and height of the output window can be adjusted in the `src/config.h.in` file.
-
-By removing the comment
-
-```
-//#define GAME_START_FULLSCREEN
-```
-
-the project starts in full screen mode.
-
-### Manage assets
-
-Store assets in the designated 'assets' folder. The project already contains a sample graphic file. In the `main.cpp` file, this image is loaded and displayed.
-
-### Choose a different raylib version
-
-Which raylib version is used can be specified in the `cmake/raylib.cmake` file. If this is changed after CMake has already created the project once, you must use CMake to completely rebuild the project.
-
-### What next?
-
-Modify the `main.cpp` file according to your needs.
-
-### Create a binary distribution
-
-The cpack command can be used on the command line to create a binary distribution of the project, for example:
-
-```
-cpack -G ZIP -C Debug
-```
-
-All assets will be packed into the distribution.
-
-## License
-
-see `LICENCE` file for details.
+Hinweis zu Übung 9: Die Dateien sind klein. Die Größen auf der Folie (2 MB, 350 MB, 40 MB) sind nur angenommen.
