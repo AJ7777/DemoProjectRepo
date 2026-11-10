@@ -2,6 +2,8 @@
 
 Dummy-Dateien für die Übungen. Alle Inhalte sind erfunden.
 
+XXX
+
 | Ordner | Übung | Inhalt |
 |---|---|---|
 | Uebung02_Eigenes-Repository | Übung 2: Ein Repository auf GitHub anlegen | konzept.md (Text zum Einfügen), titelbild.png (zum Hochladen) |
